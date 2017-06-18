@@ -1,5 +1,6 @@
 package com.example.ravi.retrofitexample;
 
+import android.app.ProgressDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn1, btn2;
     private String url="https://androidtutorialpoint.com/";
 
+    private ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
 
         btn1 = (Button ) findViewById(R.id.btn_object);
         btn2 = (Button ) findViewById(R.id.btn_array);
+
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Please wait...");
+        progressDialog.setCancelable(false);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void getRetrofitObject() {
+
+        showProgressDialog();
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(url)
@@ -85,16 +93,22 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
+                hideProgressDialog();
+
             }
 
             @Override
             public void onFailure(Throwable t) {
                 Log.d("onFailure", t.toString());
+                hideProgressDialog();
             }
+
         });
     }
 
     void getRetrofitArray() {
+
+        showProgressDialog();
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(url)
@@ -132,14 +146,29 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
+                hideProgressDialog();
+
             }
 
             @Override
             public void onFailure(Throwable t) {
                 Log.d("onFailure", t.toString());
+                hideProgressDialog();
             }
+
         });
     }
 
+    private void showProgressDialog(){
+        if(!progressDialog.isShowing()){
+            progressDialog.show();
+        }
+    }
+
+    private void hideProgressDialog(){
+        if(progressDialog.isShowing()){
+            progressDialog.dismiss();
+        }
+    }
 
 }

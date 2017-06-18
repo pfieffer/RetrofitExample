@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\AndroidStudioProjects\TechnorioIntenshipProjects\RetrofitExample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a31e7d9830ee5608dd5ccc2303356f608cd7d35b">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\TechnorioIntenshipProjects\RetrofitExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7c03660492ddcde3221221391775ba08f11b3959\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\TechnorioIntenshipProjects\RetrofitExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_de12acaf611499f3d570a42c2b4e6af7beb80a0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta2\392c3d09e0f5e7087544093cc0cb23bb9c7af5fa\converter-gson-2.0.0-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\TechnorioIntenshipProjects\RetrofitExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta2_0128ca2da9165cd87b6c4d7707f295db5a2228e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\TechnorioIntenshipProjects\RetrofitExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_0bf2621cb0d8804cf7a4345a978f4810b9a353f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\AndroidStudioProjects\TechnorioIntenshipProjects\RetrofitExample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\TechnorioIntenshipProjects\RetrofitExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_03a5fee2feb94b908de63eb7d381a3fc30be9b8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta2\880d9e0997b2d1bfc98e0d121ced33ee5d04aac4\retrofit-2.0.0-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\TechnorioIntenshipProjects\RetrofitExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta2_1b48f9c95e1401a963ddf4bfe79b261187eb2359\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ravi\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="C:\Users\ravi\AndroidStudioProjects\TechnorioIntenshipProjects\RetrofitExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.5.0_2db2fd2d5677e18d2a941f5df24ae9172382e94a\classes.dex" />
+    </item>
+
+</items>

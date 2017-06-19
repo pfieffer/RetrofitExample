@@ -72,6 +72,7 @@ public interface RetrofitObjectAPI {
    */
     @GET("api/RetrofitAndroidObjectResponse")
     Call<Student> getStudentDetails();
+}
 ```
 
 The app is a follow along of the tutorial posted on [AndroidTutorialPoint](https://www.androidtutorialpoint.com/networking/retrofit-android-tutorial/)
